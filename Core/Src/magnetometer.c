@@ -1,3 +1,16 @@
+/*
+ * magnetometer.c
+ *
+ *  Created on: Jan 19, 2024
+ *      Author: Alexandr Yermakov
+ */
+
+/*
+
+Datasheet URL:
+https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf
+*/
+
 #include "magnetometer.h"
 #include <stdio.h>
 #include "stm32l4xx_hal.h"
